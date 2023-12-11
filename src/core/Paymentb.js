@@ -32,10 +32,10 @@ class Paymentb extends React.Component {
       <div>
         {this.state.info.clientToken && this.props.products.length > 0 ? (
           <div>
-            <DropIn
+            {/* <DropIn
               options={{ authorization: this.state.info.clientToken }}
               onInstance={(instance) => (this.instance = instance)}
-            />
+            /> */}
             <button
               className="btn btn-block btn-success"
               onClick={this.onPurchase}

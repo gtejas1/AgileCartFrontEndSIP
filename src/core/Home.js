@@ -12,7 +12,7 @@ export default function Home() {
 
   const loadAllProducts = () => {
     getProducts().then((data) => {
-      if (data.error) {
+      if (!data) {
         setError(data.error);
       } else {
         setProducts(data);
