@@ -10,6 +10,6 @@ test("renders centixo T shirt store", () => {
       <Home />
     </Router>
   );
-  const linkElement = screen.getByText(/All of T-Shirts zz/i);
+  const linkElement = screen.getByText(/All of T-Shirts/i);
   expect(linkElement).toBeInTheDocument();
 });
