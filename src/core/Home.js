@@ -25,7 +25,10 @@ export default function Home() {
   }, []);
 
   return (
-    <Base title="CENTIXO" description="Welcome to the CENTIXO t-shirt store">
+    <Base
+      title="AgileCart"
+      description="Welcome to the AgileCart T-shirt store"
+    >
       <div className="row justify-content-center">
         <h1 className="text-white">All of T-Shirts</h1>
 
